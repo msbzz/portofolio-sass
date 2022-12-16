@@ -1,6 +1,7 @@
 @import 'config';
 @import 'home';
 @import 'menu';
+@import 'about';
 
 *{
     padding:0;
@@ -12,7 +13,7 @@
 
 body{
     background: $primary-color;
-    /**color: #fff;*/
+     
     color:set-text-color($primary-color);
     height: 100vh;
     font-family: 'Segoe UI',Tahoma,Geneva,Verdana, sans-serif;
@@ -27,6 +28,11 @@ a{
   /*color: #fff;*/
   color:set-text-color($primary-color);
   text-decoration: none;
+}
+ 
+
+.text-secondary {
+  color: $secondary-color;
 }
 
 header{
@@ -61,7 +67,7 @@ main{
 footer{
     font-size: 1rem;
     position: fixed;
-    bottom: 00.4rem;
+    bottom: 0.4rem;
     right: 1rem;
     text-align: right;
     padding: 1rem;

@@ -8,5 +8,42 @@ stoped 1:06:04
      estilizar e criar jscript do 
      botão superior a direita
         barras em formato de hamburger
-         q giram no click 
-     
+         q giram no click
+          
+stoped 1:08:05
+     class open
+       gira e depois transforma em X
+
+stoped 1:13:06
+       acaba tratamento do click
+       do btn burger realizando
+       um scrool de tela lateral
+
+stoped 1:16:14
+       finaliza scrool vertical
+       dos menus
+       
+stoped  1:19:11
+         definição .menu-nav dados default
+                     .open  (apresentação)
+                     __item  desloca em x
+                        .open  (apresentação)
+                      
+                      definição .active
+                         cor
+                    definição __link    
+                    
+            loop em cada link definindo a transição              
+                   
+stoped  1:30:45
+
+       criação da pagina about
+         copia da index criando div de classes 
+            about
+            about__bio-image
+            p          
+            
+           jobs
+           jobs__job 
+           
+      criação da pagina scss about                             
